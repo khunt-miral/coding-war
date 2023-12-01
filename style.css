@@ -1,0 +1,68 @@
+.ele-container{
+    background: url(/space\ image.jpg);
+    background-size: cover;
+    
+}
+a{
+    height: auto;
+    width:300px;
+}
+h2{
+    font-size: larger;
+}
+.element{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2vh;
+    flex-wrap: wrap;
+}
+.border{
+    /* margin: 2vh; */
+    border-radius: 1em;
+    border: 0.4em solid gold !important;
+}
+
+.custom{
+    flex-direction: row;
+    padding: 1rem;
+    border:3px solid #888;
+}
+
+.card-img{
+    border: 2px solid gold;
+}
+.prev-nxt-btn{
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    margin: 0 1em;
+}
+
+.outer{
+    cursor: pointer;
+}
+
+/* loader */
+#loader, #modalloader {
+    border: 12px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 12px solid #444444;
+    width: 70px;
+    height: 70px;
+    animation: spin 1s linear infinite;
+}
+
+.center {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}

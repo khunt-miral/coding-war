@@ -122,6 +122,8 @@ async function nextPage() {
         $("#loader").show();
         $(".ele-container").hide();
         load_data(nextpage);
+    }else{
+        alert("No Data found..");
     }
 }
 
@@ -131,7 +133,7 @@ async function previousPage() {
         $(".ele-container").hide();
         load_data(previouspage);
     }else{
-        console.log("No Data found...")
+        alert("No Data found..");
     }
 }
 

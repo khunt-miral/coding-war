@@ -1,2 +1,2 @@
 # coding-war
-This is assignment repository
+This is Practice Task.
